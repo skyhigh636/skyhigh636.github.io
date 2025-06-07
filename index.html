@@ -1,7 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="root"></div>
 </body>
-</html>
+    <div className="container">
+      <header>
+        <h1 className="heading">Emmanuel Ajoku</h1>
+        <p>Welcome to my Portfolio</p>
+      </header>
+
+      <section>
+        <h2 className="heading">About Me</h2>
+        <p>My name is Emmanuel Ajoku, and I am a current 2nd Year at Maynooth University
+          Studying Computer Science</p>
+      </section>
+
+      <section>
+        <h3 className="heading">Project List</h3>
+        <ul className="projects-container">
+          <li className="project-list">
+            <a href="https://github.com/skyhigh636/Only-choice-is-Hustle">
+              Your Only Choice is Hustle
+            </a>
+          </li>
+          <li className="project-list">
+            <a href="https://github.com/skyhigh636/cs171-project">
+              Electricity Usage Calculator
+            </a>
+          </li>
+          <li className="project-list">
+            <a href="https://github.com/skyhigh636/blocky">
+              Blocky
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h4 className="expRotate">General Experience</h4>
+        <ul className="skills-container">
+          <li className="Experience-list">React</li>
+          <li className="Experience-list">Java</li>
+          <li className="Experience-list">HTML</li>
+          <li className="Experience-list">CSS</li>
+          <li className="Experience-list">JavaScript</li>
+          <li className="Experience-list">Fullstack Development</li>
+        </ul>
+      </section>
+      
+      <div className="footer">Hobbies</div>
+    </div>
+</html>import React from 'react';
