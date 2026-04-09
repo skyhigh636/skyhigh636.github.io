@@ -2,6 +2,7 @@ import { Sidebar } from "@/components/sidebar"
 import { AboutSection } from "@/components/about-section"
 import { ExperienceSection } from "@/components/experience-section"
 import { ProjectsSection } from "@/components/projects-section"
+import { EducationSection } from "@/components/education-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
           <AboutSection />
           <ExperienceSection />
           <ProjectsSection />
+          <EducationSection />
           <Footer />
         </main>
       </div>

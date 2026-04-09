@@ -12,36 +12,50 @@ export function AboutSection() {
       </div>
       <div className="space-y-4 text-muted-foreground leading-relaxed">
         <p>
-          I&apos;m a developer passionate about crafting accessible, pixel-perfect user
-          interfaces that blend thoughtful design with robust engineering. My
-          favorite work lies at the intersection of design and development,
-          creating experiences that not only look great but are meticulously
-          built for performance and usability.
+          I&apos;m a third-year{" "}
+          <span className="font-medium text-foreground">Software Engineering</span> student
+          at{" "}
+          <a
+            href="https://www.maynoothuniversity.ie/"
+            className="font-medium text-foreground hover:text-primary transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Maynooth University
+          </a>{" "}
+          with hands-on experience in software testing, code optimization, and
+          scalable system design.
         </p>
         <p>
-          Currently, I&apos;m a Senior Developer at{" "}
+          I have a strong interest in{" "}
+          <span className="font-medium text-foreground">automated testing pipelines</span>{" "}
+          and{" "}
+          <span className="font-medium text-foreground">backend development</span>, with a
+          focus on improving CI/CD workflows and code quality. I enjoy solving
+          complex problems and building systems that are both maintainable and
+          efficient.
+        </p>
+        <p>
+          Currently, I&apos;m completing my internship at{" "}
           <a
-            href="#"
+            href="#experience"
             className="font-medium text-foreground hover:text-primary transition-colors"
           >
-            TechCorp
+            PropTech Deliverables Limited
           </a>
-          , specializing in accessibility. I contribute to the creation and
-          maintenance of UI components that power the company&apos;s frontend,
-          ensuring the platform meets web accessibility standards and best
-          practices to deliver an inclusive user experience.
+          , where I&apos;m refactoring backend systems, implementing tests, and
+          contributing to CI/CD improvements using tools like Lerna, Jest, and
+          ESLint.
         </p>
         <p>
-          In the past, I&apos;ve had the opportunity to develop software across a
-          variety of settings — from{" "}
-          <span className="font-medium text-foreground">advertising agencies</span> and{" "}
-          <span className="font-medium text-foreground">large corporations</span> to{" "}
-          <span className="font-medium text-foreground">start-ups</span> and{" "}
-          <span className="font-medium text-foreground">small digital product studios</span>.
-        </p>
-        <p>
-          In my spare time, I&apos;m usually climbing, reading, hanging out with my
-          family, or running around exploring new coffee shops.
+          My technical toolkit includes{" "}
+          <span className="font-medium text-foreground">Java</span>,{" "}
+          <span className="font-medium text-foreground">JavaScript</span>,{" "}
+          <span className="font-medium text-foreground">React</span>,{" "}
+          <span className="font-medium text-foreground">Node.js</span>, and cloud
+          platforms like{" "}
+          <span className="font-medium text-foreground">Microsoft Azure</span> and{" "}
+          <span className="font-medium text-foreground">Vercel</span>.
         </p>
       </div>
     </section>

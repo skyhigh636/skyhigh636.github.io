@@ -3,31 +3,31 @@ import { ArrowUpRight } from "lucide-react"
 
 const experiences = [
   {
-    period: "2022 — Present",
-    title: "Senior Developer",
-    company: "TechCorp",
+    period: "Feb — Jul 2026",
+    title: "Software Testing Engineer Intern",
+    company: "PropTech Deliverables Limited",
     companyUrl: "#",
     description:
-      "Build and maintain critical components used to construct the company's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    technologies: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"],
+      "Gained in-depth understanding of an existing codebase, including architecture, configurations, and linting standards. Refactored backend systems into modular libraries using Lerna, improving maintainability and CI/CD efficiency. Contributed to test implementation and debugging processes while delivering weekly progress updates.",
+    technologies: ["JavaScript", "Lerna", "Jest", "ESLint", "CI/CD"],
   },
   {
-    period: "2020 — 2022",
-    title: "Developer",
-    company: "StartupXYZ",
-    companyUrl: "#",
+    period: "Aug 2025",
+    title: "Trainee",
+    company: "RTÉ",
+    companyUrl: "https://www.rte.ie/",
     description:
-      "Developed and shipped highly interactive web applications for clients including Fortune 500 companies. Built custom solutions with modern technologies and implemented complex features with a focus on user experience.",
-    technologies: ["React", "Node.js", "GraphQL", "PostgreSQL", "AWS"],
+      "Collaborated with colleagues on researching and writing interview briefs, presenting these to team members. Engaged in professional recording with equipment and software. Conceptualized a novel idea for a modern podcast and recorded a sample episode.",
+    technologies: ["Research", "Communication", "Audio Production"],
   },
   {
-    period: "2018 — 2020",
-    title: "Junior Developer",
-    company: "Digital Agency",
-    companyUrl: "#",
+    period: "Jan — Dec 2024",
+    title: "CoderDojo Demonstrator",
+    company: "Maynooth University",
+    companyUrl: "https://www.maynoothuniversity.ie/",
     description:
-      "Collaborated with designers and other developers to create responsive websites and web applications. Gained experience in front-end development, version control, and agile methodologies.",
-    technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "Sass"],
+      "Assisted the head demonstrators in their classes. Provided guidance to students during sessions, ensuring they could follow the syllabus and understand programming concepts effectively.",
+    technologies: ["Teaching", "Mentoring", "Programming"],
   },
 ]
 

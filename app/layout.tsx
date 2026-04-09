@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Developer & Designer',
-  description: 'A passionate developer building accessible, pixel-perfect digital experiences for the web.',
+  title: 'Emmanuel Ajoku | Software Engineer',
+  description: 'Third-year Software Engineering student at Maynooth University with experience in software testing, code optimization, and scalable system design.',
   generator: 'v0.app',
   icons: {
     icon: [

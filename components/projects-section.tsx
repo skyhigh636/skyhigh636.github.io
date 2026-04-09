@@ -4,28 +4,28 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "Skybot",
     description:
-      "A full-stack e-commerce platform with real-time inventory management, payment processing, and an intuitive admin dashboard. Built with modern technologies for optimal performance.",
-    image: "/projects/ecommerce.jpg",
-    url: "#",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+      "A Discord bot built using Discord.JS template. Modified the initial rock, paper, scissors command to challenge other users and added a dice roll command with configurable sides, wager, and desired number. Hosted locally using Ngrok with a deployment workflow using ESLint, Lerna, and Jest.",
+    image: "/projects/skybot.jpg",
+    url: "https://github.com/skyhigh636",
+    technologies: ["Discord.js", "Node.js", "Jest", "ESLint", "Lerna", "Ngrok"],
   },
   {
-    title: "Task Management App",
+    title: "WorldHello",
     description:
-      "A collaborative task management application featuring real-time updates, drag-and-drop functionality, and team workspaces. Designed for productivity and seamless collaboration.",
-    image: "/projects/taskapp.jpg",
-    url: "#",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
+      "An SDL3-based game engine with implemented core 2D rendering components. Gained extensive experience with modern C++ development tools and graphics programming fundamentals.",
+    image: "/projects/worldhello.jpg",
+    url: "https://github.com/skyhigh636",
+    technologies: ["C++", "SDL3", "2D Rendering", "Game Development"],
   },
   {
-    title: "Weather Dashboard",
+    title: "Your Only Choice is Hustle",
     description:
-      "An interactive weather dashboard that displays current conditions, forecasts, and historical data with beautiful visualizations. Integrates with multiple weather APIs.",
-    image: "/projects/weather.jpg",
-    url: "#",
-    technologies: ["Vue.js", "D3.js", "Express", "Redis"],
+      "A game project featuring designed and implemented game logic using data structures. Transitioned from linked lists to hashmaps for improved performance. Built a system that reads and processes game data from text files, exploring automation and optimization techniques.",
+    image: "/projects/hustle.jpg",
+    url: "https://github.com/skyhigh636",
+    technologies: ["Data Structures", "Hashmaps", "File Processing", "Game Logic"],
   },
 ]
 

@@ -1,19 +1,20 @@
 "use client"
 
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Phone } from "lucide-react"
 
 const navItems = [
   { name: "About", href: "#about" },
   { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
+  { name: "Education", href: "#education" },
 ]
 
 const socialLinks = [
-  { name: "GitHub", href: "https://github.com", icon: Github },
-  { name: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { name: "Twitter", href: "https://twitter.com", icon: Twitter },
-  { name: "Email", href: "mailto:hello@example.com", icon: Mail },
+  { name: "GitHub", href: "https://github.com/skyhigh636", icon: Github },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/emmanuel-ajoku-", icon: Linkedin },
+  { name: "Email", href: "mailto:emmanuel.ajoku.2024@mumail.ie", icon: Mail },
+  { name: "Phone", href: "tel:+353899880595", icon: Phone },
 ]
 
 export function Sidebar() {
@@ -21,13 +22,13 @@ export function Sidebar() {
     <header className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 lg:px-12">
       <div>
         <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-          <Link href="/">Alex Chen</Link>
+          <Link href="/">Emmanuel Ajoku</Link>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-primary sm:text-xl">
-          Full Stack Developer
+          Software Engineering Student
         </h2>
         <p className="mt-4 max-w-xs text-muted-foreground leading-relaxed">
-          I build accessible, pixel-perfect digital experiences for the web.
+          Building scalable systems with a focus on automated testing and backend development.
         </p>
 
         <nav className="mt-16 hidden lg:block" aria-label="In-page navigation">
