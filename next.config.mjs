@@ -1,5 +1,7 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '',
+  unoptimized: true,
   typescript: {
     ignoreBuildErrors: true,
   },
