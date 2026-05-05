@@ -14,7 +14,6 @@ const socialLinks = [
   { name: "GitHub", href: "https://github.com/skyhigh636", icon: Github },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/emmanuel-ajoku-262790367/", icon: Linkedin },
   { name: "Email", href: "mailto:emmanuel.ajoku.2024@mumail.ie", icon: Mail },
-  { name: "Phone", href: "tel:+353899880595", icon: Phone },
 ]
 
 export function Sidebar() {
